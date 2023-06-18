@@ -13,7 +13,7 @@ for (num = 0; num < 100; num++)
 {
 for (num1 = 0; num1 < 100; num1++)
 {
-if (num1 < num1)
+if (num < num1)
 {
 putchar((num / 10) + 48);
 putchar((num % 10) + 48);
