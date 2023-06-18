@@ -12,7 +12,7 @@ int main(void)
 
 for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 {
-if (alphabets != excldAlphabets[])
+if (alphabets != excldAlphabets)
 {
 putchar(alphabets);
 }
