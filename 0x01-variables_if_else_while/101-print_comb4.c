@@ -17,9 +17,9 @@ for (num2 = num1; num2 < 9; num2++)
 {
 if (num > num1 && num1 > num2)
 {
-putchar(0 + num);
-putchar(0 + num1);
-putchar(0 + num2);
+putchar(num);
+putchar(num1);
+putchar(num2);
 if (num != 7 || num1 != 8 || num2 != 9)
 {
 putchar(',');
