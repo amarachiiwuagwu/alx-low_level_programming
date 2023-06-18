@@ -8,11 +8,10 @@
 int main(void)
 {
 	char alphabets;
-	char excldAlphabets[] = {'q', 'e'};
 
 for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 {
-if (alphabets != excldAlphabets)
+if ((alphabets == 'q' || alphabets == 'e') != 1)
 {
 putchar(alphabets);
 }
